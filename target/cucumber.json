@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-13T13:49:37.553Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9496001300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeSteps()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User is Buying a Book",
+        "description": "",
+        "id": "automation-practice-site;user-is-buying-a-book;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5326340900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5939275700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Navigates to Homepage",
+            "match": {
+              "location": "HomePageSteps.user_Navigates_to_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19028453300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Searches and Selects the Book",
+            "match": {
+              "location": "SearchPageSteps.user_Searches_and_Selects_the_Book()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6557030000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Adds the Book to Cart and Clicks Checkout button",
+            "match": {
+              "location": "AddToCartPageSteps.user_Adds_the_Book_to_Cart_and_Clicks_Checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10964821600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"Siva\" the Personal Details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Siva\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CheckOutPageSteps.user_enters_the_Personal_Details(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2091815900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects Payment Method and Clicks the Place Order button",
+            "match": {
+              "location": "CheckOutPageSteps.user_selects_Payment_Method_and_Clicks_the_Place_Order_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practice Site",
+    "description": "",
+    "id": "automation-practice-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FunctionalTests/cucumberframework.feature",
+    "tags": []
+  }
+]

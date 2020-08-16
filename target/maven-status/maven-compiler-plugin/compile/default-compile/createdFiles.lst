@@ -1,0 +1,4 @@
+pageobjects\HomePage.class
+pageobjects\CheckoutPage.class
+pageobjects\AddToCartPage.class
+pageobjects\SearchPage.class

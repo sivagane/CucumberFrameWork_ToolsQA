@@ -1,0 +1,28 @@
+[
+{
+"firstName": "Siva",
+ "lastName": "Ganesh",
+ "companyName":"Ajantha",
+ "emailAddress": "siva98@gmail.com",
+ "phone": "9999999999",
+ "country": "India",
+ "address":"83, Mahatma gandhi road",
+ "city": "Puchucherry",
+ "state": "Puchucherry",
+ "postCode": "605001"
+  },
+  {
+"firstName": "Ravi",
+ "lastName": "Ganesh",
+ "companyName":"Ajantha",
+ "emailAddress": "ravi@gmail.com",
+ "phone": "9999988888",
+ "country": "India",
+ "address":"85, Indira gandhi road",
+ "city": "Puchucherry",
+ "state": "Pudhucherry",
+ "postCode": "605010"
+  }
+  ]
+ 
+ 
